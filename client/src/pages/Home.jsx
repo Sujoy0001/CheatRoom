@@ -4,9 +4,10 @@ import WelcomeCarousel from "../components/WelcomeCarousel";
 
 const Home = () => {
   return (
-    <div className="min-h-full w-full flex flex-col justify-between text-center items-center p-2 overflow-y-auto">
+    <div className="min-h-screen w-full flex flex-col justify-between text-center items-center p-2 overflow-y-auto">
       
       {/* Heading Section */}
+      <div className="w-full p-0">
       <div className="Heading-text flex flex-col mx-auto w-full md:w-2/3 text-center mt-28">
         <h2 className="text-white sujoy1 text-5xl">
           Your Secret Room — Chat Safely, Share Easily, and Stay Anonymous
@@ -26,10 +27,12 @@ const Home = () => {
         {/* <div className="bg-zinc-800 h-72 w-1 rounded-2xl hidden lg:block"></div> */}
         <ContentDiv alignment="right" />
       </div>
+      
 
 
       <div className="p-2 w-full">
         <WelcomeCarousel />
+      </div>
       </div>
 
       <footer className="w-full p-0 flex text-center items-center justify-center">

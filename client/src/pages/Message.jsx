@@ -361,7 +361,7 @@ const Message = () => {
   }
 
   return (
-    <div className='w-[100%] bg-zinc-950 fixed left-1/2 -translate-x-1/2 top-16 h-[92%] flex items-center justify-center'>
+    <div className='w-[100%] h-[92%] bg-zinc-950 fixed left-1/2 -translate-x-1/2 top-16 flex items-center justify-center'>
       <SidebarChat />
 
       <div className="messageShow h-full w-full p-0 flex flex-col items-center justify-center">
